@@ -1,0 +1,49 @@
+.Die {
+  font-size: 10em;
+  padding: 0.25em;
+  color: slateblue;
+  margin-top: 20vh;
+}
+
+.wobble {
+  animation-name: wobble;
+  animation-duration: 0.5s;
+}
+
+@keyframes wobble {
+  20% {
+    transform: skew(-15deg, 0deg);
+    -webkit-transform: skew(-15deg, 0deg);
+    -moz-transform: skew(-15deg, 0deg);
+    -ms-transform: skew(-15deg, 0deg);
+    -o-transform: skew(-15deg, 0deg);
+  }
+  40% {
+    transform: skew(15deg, 0deg);
+    -webkit-transform: skew(15deg, 0deg);
+    -moz-transform: skew(15deg, 0deg);
+    -ms-transform: skew(15deg, 0deg);
+    -o-transform: skew(15deg, 0deg);
+  }
+  60% {
+    transform: skew(-10deg, 0deg);
+    -webkit-transform: skew(-10deg, 0deg);
+    -moz-transform: skew(-10deg, 0deg);
+    -ms-transform: skew(-10deg, 0deg);
+    -o-transform: skew(-10deg, 0deg);
+  }
+  80% {
+    transform: skew(10deg, 0deg);
+    -webkit-transform: skew(10deg, 0deg);
+    -moz-transform: skew(10deg, 0deg);
+    -ms-transform: skew(10deg, 0deg);
+    -o-transform: skew(10deg, 0deg);
+  }
+  100% {
+    transform: skew(0deg, 0deg);
+    -webkit-transform: skew(0deg, 0deg);
+    -moz-transform: skew(0deg, 0deg);
+    -ms-transform: skew(0deg, 0deg);
+    -o-transform: skew(0deg, 0deg);
+  }
+}
