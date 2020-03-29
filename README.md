@@ -1,3 +1,6 @@
+# React Lottery Game Exercise .. Check Live [HERe](https://lottery-game-exercise.netlify.com/) 
+Please Don't Download it's Rusty Code
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
