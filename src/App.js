@@ -1,11 +1,12 @@
 import React from 'react';
+import Lottery from './Lottery';
 import './App.css';
-import RollDice from './RollDice';
 
 function App() {
   return (
     <div className="App">
-      <RollDice />
+      <Lottery />
+      <Lottery numBalls={4} title="Daily" maxNumber={10} />
     </div>
   );
 }
